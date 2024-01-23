@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu调教日记之Sublime Text3
 description: "Ubuntu18.04下安装 Sublime Text3 并解决它的一些“疑难杂症"
 category: tech
-thumb: 'IMG_PATH/linux.png'
+thumb: 'IMG_PATH/sublime.jpg'
 tags: [ubuntu, sublime Text3, Linux]
 ---
 
