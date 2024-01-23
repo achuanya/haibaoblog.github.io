@@ -11,15 +11,13 @@ tags: [关于, 博客, fooleap, blog]
 {% endcomment %}
 
 
-请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客。
+请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免影响阅读体验。
 
-本博采用 Jekyll[[1]][1] 搭建，Markdown[[2]][2] 写作，托管于腾讯云存储[[3]][3]和GitHub[[4]][4]。 
 
 自 2018 年 8 月 31 日起，本站已运行 <span id="days"></span> 天，截至 {{ site.time | date: "%Y 年 %m 月 %d 日" }}，写了博文 {{ site.posts.size }} 篇，{% assign count = 0 %}{% for post in site.posts %}{% assign single_count = post.content | strip_html | strip_newlines | remove: ' ' | size %}{% assign count = count | plus: single_count %}{% endfor %}{% if count > 10000 %}{{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}{% else %}{{ count }}{% endif %} 字。
 
 
-本博客所有文章采用的授权方式为 自由转载-非商用-非衍生-保持署名 ，转载请务必注明出处，谢谢。 声明：
-本博客欢迎转发，但请保留原作者信息!
+本博客所有文章采用的授权方式为 自由转载-非商用-非衍生-保持署名，转载请务必注明出处，谢谢。
 
 内容系本人学习、研究和总结，如有雷同，实属荣幸！
 
@@ -27,7 +25,7 @@ tags: [关于, 博客, fooleap, blog]
 
 千禧年小屁孩，代码、计算机纯属个人爱好，怀旧着，记录着 正在的发生美好往昔
 
-长途骑行小学生、野钓路亚、振出并继、萨克斯、小提琴、摇滚、蓝调布鲁斯爱好者
+长途骑行小学生、野钓路亚、振出并继、萨克斯、提琴、摇滚、蓝调布鲁斯爱好者
 
 
 * Email: haibao1027@gmail.com
@@ -35,9 +33,9 @@ tags: [关于, 博客, fooleap, blog]
 
 ## 博客进程
 
-* 2018-08-31 jekyll + Github pages托管建立，域名 achuan.io，名字为 "阿川的个人博客"
+* 2018-08-31 Jekyll + Github Pages托管建立，域名 achuan.io，名字为 "阿川的个人博客"
 * 2024-01-23 域名更改为 lhasa.icu，改名为 "游钓四方的博客"
-* 2024-01-24 国内解析到 腾讯云DNSPod，全站COS
+* 2024-01-24 国内域名解析 腾讯云 DNSPod，全站资源腾讯 COS
 * 2024-01-25 使用 Disqus API 反向代理解决评论问题
 * 2024-01-25 使用 WebPack 打包前端资源
 
