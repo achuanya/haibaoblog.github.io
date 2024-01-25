@@ -2,7 +2,8 @@
 layout: post
 title: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
 category: life
-tags: [驾考, 工作, 情感, 理想]
+thumb: 'IMG_PATH/'
+tags: [思考, 发展]
 ---
 
 本文转自[IT技术博客大学习](http://blogread.cn/it/article/6367?f=wb?achuan.io)
