@@ -6,7 +6,7 @@ title: 链接
 
 ## 友情链接
 
-* [](https://blog.fooleap.org/){:title="fooleap"}
+* [fooleap](https://blog.fooleap.org/){:title="fooleap"}
 
 ## 推荐站点
 
