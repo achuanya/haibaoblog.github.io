@@ -11,7 +11,7 @@ title: 链接
 ## 推荐站点
 
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog) 前端大牛，作家
-* [风雪之隅 ](https://www.laruence.com) 亚洲第一程序员，鸟哥，著名PHP核心专家，
+* [风雪之隅 ](https://www.laruence.com) 亚洲第一程序员，鸟哥，著名PHP核心专家
 * [ONE · 一个](https://wufazhuce.com) 韩寒主编和监制的电子书刊
 * [Github](https://github.com) 全球最活跃最大的开源社区
 * [HelloGitHub](https://hellogithub.com) 一个有趣的开源项目中文分享平台
