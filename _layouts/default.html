@@ -58,6 +58,18 @@ layout: compress
                             {% endcomment %}
                             <a class="post-cat-tag{% if page.url == '/guestbook.html' %} active{% endif %}" href="/guestbook.html">留言本</a>
                         </div>
+                        <script>
+                            setTimeout(function() {
+                                if(document.all) {
+                                document.getElementById("menu").click();
+                                }
+                                else {
+                                var e = document.createEvent("MouseEvents");
+                                e.initEvent("click", true, true);
+                                document.getElementById("menu").dispatchEvent(e);
+                                }
+                            }, 0);
+                        </script>
                     {% else %}
                         {{ page.description }}
                     {% endif %}
