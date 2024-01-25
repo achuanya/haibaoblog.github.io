@@ -11,13 +11,13 @@ tags: [关于, 博客, fooleap, blog]
 {% endcomment %}
 
 
-请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免影响阅读体验。
+请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免因为兼容性影响阅读体验。
 
 
 自 2018 年 8 月 31 日起，本站已运行 <span id="days"></span> 天，截至 {{ site.time | date: "%Y 年 %m 月 %d 日" }}，写了博文 {{ site.posts.size }} 篇，{% assign count = 0 %}{% for post in site.posts %}{% assign single_count = post.content | strip_html | strip_newlines | remove: ' ' | size %}{% assign count = count | plus: single_count %}{% endfor %}{% if count > 10000 %}{{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}{% else %}{{ count }}{% endif %} 字。
 
 
-本博客所有文章采用的授权方式为 自由转载-非商用-非衍生-保持署名，转载请务必注明出处，谢谢。
+本博客所有文章采用的授权方式为 [自由转载-非商用-非衍生-保持署名][1]，转载请务必注明出处，谢谢。
 
 内容系本人学习、研究和总结，如有雷同，实属荣幸！
 
@@ -40,9 +40,8 @@ tags: [关于, 博客, fooleap, blog]
 * 2024-01-25 使用 WebPack 打包前端资源
 
 
-## 参考资料
 
-[1]: https://jekyllrb.com/ "Jekyll"
+[1]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
 
 
 <script>
