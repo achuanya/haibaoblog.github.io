@@ -28,7 +28,7 @@ tags: [关于, 博客, fooleap, blog]
 长途骑行小学生、野钓路亚、振出并继、萨克斯、提琴、摇滚、蓝调布鲁斯爱好者
 
 
-* Email: haibao1027@gmail.com
+* [Email: haibao1027@gmail.com][2]
 
 
 ## 博客进程
@@ -42,6 +42,7 @@ tags: [关于, 博客, fooleap, blog]
 
 
 [1]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
+[2]：haibao1027@gmail.com
 
 
 <script>
