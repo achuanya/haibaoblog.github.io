@@ -1,17 +1,8 @@
 <section class="wechat-related">
-  {% if page.wechat %}
-  <div class="wechat-related-item">
-    <div class="wechat-related-code wechat-qrcode" id="wechat-qrcode" data-qrcode-url="{{ page.wechat }}"></div>
-    <a class="wechat-related-title" href="{{ page.wechat }}" target="_blank">
-      {% include svg/wechat.svg %} 公众号文章
-    </a>
-  </div>
-  {% endif %}
-
   <div class="wechat-related-item">
     <div class="wechat-related-code wechat-paycode"></div>
     <div class="wechat-related-title">
-      {% IMG_PATH/zanshang.jpg %} 赞赏作者
+      <img src="https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article/zanshang.jpg">赞赏作者
     </div>
   </div>
 </section>
