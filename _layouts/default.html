@@ -61,9 +61,8 @@ layout: compress
                         <script>
                             // 进入首页自动展示导航
                             setTimeout(function() {
-                                var currentHostname = $.url().attr("host");
-                                console.log(currentHostname);
-                                if(currentHostname == "https://haibao.icu"){
+                                console.log(window.location.href);
+                                if(window.location.href == "https://haibao.icu/"){
                                     if(document.all) {
                                             document.getElementById("menu").click();
                                     } else {
