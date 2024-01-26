@@ -3,7 +3,7 @@ layout: post
 title: (转)如何学习开源项目
 description: 如何学习开源项目
 category: tech
-thumb: 'IMG_PATH/openSource.jpeg'
+thumb: 'IMG_PATH/openSource.jpg'
 tags: [开源, github]
 ---
 
