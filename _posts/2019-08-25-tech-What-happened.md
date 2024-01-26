@@ -2,7 +2,7 @@
 layout: post
 title: 说说消失这二十多天发生的事情
 category: life
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/suibi.jpg
 tags: [经历]
 ---
 

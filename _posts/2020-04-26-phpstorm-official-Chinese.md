@@ -3,7 +3,7 @@ layout: post
 title: JetBrains官方推中文简体包了！
 description: JetBrains官方推中文简体包了！
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/JetBrains.jpg
 tags: [jetbrains, php]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 爱上Go语言：变量定义与内建变量类型
 description: 爱上Go语言：变量定义与内建变量类型
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/golang.jpg
 tags: [golang, var]
 ---
 

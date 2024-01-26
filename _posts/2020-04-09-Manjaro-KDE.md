@@ -3,7 +3,7 @@ layout: post
 title: Manjaro KDE 调教日记
 description: Manjaro KDE 调教日记
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/manjaro.jpg
 tags: [linux, manjaro, kde]
 ---
 

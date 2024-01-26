@@ -2,7 +2,7 @@
 layout: post
 title: 我回来了
 category: life
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/xiezuo.jpg
 tags: []
 ---
 

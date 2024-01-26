@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu Server部署日记
 description: Ubuntu Server部署日记
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/ubuntu.jpg
 tags: [ubuntu, 部署]
 ---
 

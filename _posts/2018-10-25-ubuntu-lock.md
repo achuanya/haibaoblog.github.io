@@ -3,7 +3,7 @@ layout: post
 title: 解决ubuntu：E：无法获得锁(11：资源暂时不可用)
 description: 解决ubuntu：E：无法获得锁(11：资源暂时不可用)
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/ubuntu.jpg
 tags: [ubuntu, bug]
 ---
 

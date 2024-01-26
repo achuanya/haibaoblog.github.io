@@ -3,7 +3,7 @@ layout: post
 title: 2019-05-22 博客功能更新记录
 description: 2019-05-22 博客功能更新记录
 category: tech
-thumb: 'IMG_PATH/'
+thumb: IMG_PATH/update.jpg
 tags: [blog, update]
 ---
 
