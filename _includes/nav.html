@@ -15,6 +15,9 @@
         <li class="navigation-item{% if page.url == '/links.html' %} current{% endif %}">
             <a class="navigation-item-link" href="/links.html">{% include svg/link.svg %}链接</a>
         </li>
+        <li class="navigation-item{% if page.url == '/search.html?keyword=' %} current{% endif %}">
+            <a class="navigation-item-link" href="/search.html?keyword=">{% include svg/search.svg %}搜索</a>
+        </li>
         <li class="navigation-item{% if page.url == '/guestbook.html' %} current{% endif %}">
             <a class="navigation-item-link" href="/guestbook.html">{% include svg/comments.svg %}留言</a>
         </li>
