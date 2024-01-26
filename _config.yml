@@ -25,7 +25,6 @@ repository: fooleap/fooleap.github.io
 nickname: fooleap
 home: https://blog.fooleap.org
 api: https://api.fooleap.org
-IMG_PATH: //source.fooleap.org
-imgPath: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article
+IMG_PATH: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article
 tongji: 'fa7ec982118ebd236663169678264582'
 analytics: 'UA-16717905-7'
