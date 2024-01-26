@@ -59,15 +59,21 @@ layout: compress
                             <a class="post-cat-tag{% if page.url == '/guestbook.html' %} active{% endif %}" href="/guestbook.html">留言本</a>
                         </div>
                         <script>
-                            // 刷新自动展示导航
+                            // 进入首页自动展示导航
                             setTimeout(function() {
-                                if(document.all) {
-                                document.getElementById("menu").click();
-                                }
-                                else {
-                                var e = document.createEvent("MouseEvents");
-                                e.initEvent("click", true, true);
-                                document.getElementById("menu").dispatchEvent(e);
+                                var currentHostname = $.url().attr("host");
+                                console.log(currentHostname);
+                                if(currentHostname == "https://haibao.icu"){
+                                    if(document.all) {
+                                            document.getElementById("menu").click();
+                                    } else {
+
+                                        var e = document.createEvent("MouseEvents");
+                                        e.initEvent("click", true, true);
+                                        document.getElementById("menu").dispatchEvent(e);
+                                    }
+                                } else {
+                                    return null;
                                 }
                             }, 0);
                         </script>
