@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 更换了域名、邮箱并修复了移动端bug
-category: life
-thumb: 'IMG_PATH/update.jpg'
+category: tech
+thumb: IMG_PATH/update.jpg
 tags: [update, bug]
 ---
 
