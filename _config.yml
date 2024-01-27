@@ -20,7 +20,7 @@ kramdown:
 emoji:
     src: 'https://api.fooleap.org'
 paginate: 10
-repository: fooleap/fooleap.github.io
+repository: achuanya/lhasa.github.io
 
 nickname: fooleap
 home: https://blog.fooleap.org

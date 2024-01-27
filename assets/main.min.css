@@ -1824,9 +1824,14 @@ pre.terminal code {
     right: 0px;
 }
 
+@media screen and (max-width: 430px) {
+	.search-article {
+		right: 60px;
+	}
+}
+
 .search-article input {
     height: 32px;
-    border: #000;
 }
 
 .navigation-item-link svg {
@@ -1836,5 +1841,4 @@ pre.terminal code {
 
 .navigation-item-link {
     color: #c8c8c8 !important;
-
 }
