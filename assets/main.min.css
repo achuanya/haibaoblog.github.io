@@ -1828,6 +1828,9 @@ pre.terminal code {
 	.search-article {
 		right: 60px;
 	}
+	.my-photo {
+		height: 13rem !important;
+	}
 }
 
 .search-article input {
@@ -1841,4 +1844,12 @@ pre.terminal code {
 
 .navigation-item-link {
     color: #c8c8c8 !important;
+}
+
+.my-photo {
+	width: 100%;
+	display: block;
+	height: 23rem;
+	object-fit: cover;
+	display: block;
 }

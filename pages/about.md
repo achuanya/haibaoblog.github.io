@@ -23,6 +23,8 @@ tags: [关于, 博客, fooleap, blog]
 
 ## 博主
 
+<img class="my-photo" src="https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/my-photo.jpg">
+
 千禧年小屁孩，代码、计算机纯属个人爱好，怀旧着，记录着 正在的发生美好往昔
 
 长途骑行小学生、野钓路亚、振出并继、萨克斯、提琴、摇滚、蓝调布鲁斯爱好者
