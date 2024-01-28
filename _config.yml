@@ -28,5 +28,3 @@ api: https://api.fooleap.org
 IMG_PATH: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article
 tongji: 'fa7ec982118ebd236663169678264582'
 analytics: 'UA-16717905-7'
-
-date: "%b %-d, %Y"
