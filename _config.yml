@@ -5,7 +5,6 @@ host: 127.0.0.1
 title: 游钓四方的博客
 keywords: [游钓四方, 骑行, 钓鱼, 提琴or萨克斯]
 description: '钓五湖四海，交八方朋友'
-timezone: Asia/Shanghai +08:00
 
 exclude: [webpack.config.js, package.json, Gemfile, Gemfile.lock, src, node_modules]
 plugins: [jekyll-paginate, jemoji]
