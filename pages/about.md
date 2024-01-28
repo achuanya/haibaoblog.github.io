@@ -23,7 +23,7 @@ tags: [关于, 博客, fooleap, blog]
 
 ## 博主
 
-<img class="my-photo" src="https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/my-photo.jpg">
+<img class="my-photo" src="https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/my-photo.jpg_640">
 
 千禧年小屁孩，代码、计算机纯属个人爱好，怀旧着，记录着 正在的发生美好往昔
 

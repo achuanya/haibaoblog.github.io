@@ -1853,11 +1853,3 @@ pre.terminal code {
 	object-fit: cover;
 	display: block;
 }
-
-.post-figure img {
-	width: 100% !important;
-	display: block;
-	height: 23rem;
-	object-fit: cover;
-	display: block;
-}
