@@ -29,7 +29,7 @@ title: 链接
 * [You Might Not Need jQuery](http://youmightnotneedjquery.com) JavaScript工具
 * [大眼仔旭](http://www.dayanzai.me) 综合应用资源站，站长专业汉化
 * [423Down](https://www.423down.com) 综合应用资源站，其windows系统整合是精品
-* [异次元软件世界](https://www.iplaysoft.com) 综合应用资源站，有正版软件的销售业务
+* [异次元软件世界](https://www.iplaysoft.com) 综合应用资源站，有正版软件销售业务
 * [软仓](https://ruancang.net) 资源站的清流，专业设计、办公软件类，涉及广泛版本多
 * [MSDN Itell you](https://msdn.itellyou.cn) 十五年老站点，主要下载开发工具和操作系统
 
