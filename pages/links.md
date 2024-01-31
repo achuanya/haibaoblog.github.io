@@ -17,6 +17,7 @@ title: 链接
 * [Github](https://github.com) 全球最活跃最大的男同社区
 * [HelloGitHub](https://hellogithub.com) 一个有趣的开源项目中文分享平台
 * [个站商店](https://storeweb.cn) 带社交元素的个人网站平台
+* [十年之约](https://www.foreverblog.cn) 一个人的寂寞，一群人的狂欢
 
 ## 工具链接
 
