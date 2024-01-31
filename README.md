@@ -28,24 +28,6 @@
 * 2024-01-31 全站css、js图片等静态资源走腾讯 对象储存 COS
 * 2024-01-31 域名备案完成，由腾讯云 内容分发网络 CDN 全球加速
 
-
 [1]: https://lhasa.icu/atom.xml
-
 [2]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
-
 [3]: https://github.com/achuanya
-
-
-<script>
-var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2011-02-09" | date: "%s" }}) / (60 * 60 * 24));
-(function daysCount(){
-    if(days > daysMax){
-        document.getElementById('days').innerHTML = daysMax;
-        return;
-    } else {
-        document.getElementById('days').innerHTML = days;
-        days += 10;
-        setTimeout(daysCount, 1); 
-    }
-})();
-</script>
