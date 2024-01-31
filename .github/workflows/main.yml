@@ -1,24 +1,18 @@
-    name: Upload to COS
+- name: Setup Python
+  uses: actions/setup-python@v4
+  with:
+    python-version: 3.9
 
-    on: [push]
+- name: Setup coscmd
+  run: sudo pip install coscmd
 
-    jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v1
-        - name: Install coscmd
-        run: sudo pip install coscmd
-        - name: Configure coscmd
-        env: 
-        SECRET_ID: ${{ AKIDeAh3IONAnKm4A4oPs9Wp2FMZYO7kBPhx }}
-        SECRET_KEY: ${{ HLH7rQsFSSHuKWTL2VpzxjLl3DJEg0CF }}
-        BUCKET: lhasa-1253887673
-        REGION: ap-shanghai
-        run: coscmd config
-        -a $SECRET_ID
-        -s $SECRET_KEY
-        -b $BUCKET
-        -r $REGION
-        - name: Upload
-        run: coscmd upload  -rs --delete -f ./ / --ignore "./.git/*
+- name: Configure coscmd
+  env:
+    SECRET_ID: ${{ secrets.AKIDeAh3IONAnKm4A4oPs9Wp2FMZYO7kBPhx }}
+    SECRET_KEY: ${{ secrets.HLH7rQsFSSHuKWTL2VpzxjLl3DJEg0CF }}
+    BUCKET: ${{ secrets.Bucket }}
+    REGION: ${{ secrets.Region }}
+  run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+
+- name: Upload to COS
+  run: coscmd upload -rfs --delete public/ /
