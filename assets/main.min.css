@@ -1001,8 +1001,8 @@ pre.terminal code {
 .wechat-related .wechat-related-item {
 	margin: 0 10px;
 	background-color: #fff;
-	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
-	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+	/* -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2); */
 	border-radius: 3px
 }
 
@@ -1021,7 +1021,8 @@ pre.terminal code {
 }
 
 .wechat-related .wechat-paycode {
-	background-image: url(//source.fooleap.org/wechat-reward.png)
+
+	/* background-image: url(https://cos.lhasa.icu/assets/article/zanshang.jpg) */
 }
 
 .wechat-related .wechat-paycode ~ .wechat-related-title {
@@ -1035,8 +1036,8 @@ pre.terminal code {
 
 .wechat-related .wechat-related-code {
 	padding: 10px 10px 5px;
-	width: 120px;
-	height: 115px;
+	width: 200px;
+	height: 200px;
 	background-size: cover
 }
 
