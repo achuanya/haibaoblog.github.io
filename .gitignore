@@ -1,8 +1,7 @@
 node_modules
 _site*
 .sass-cache
-.\assets\test\
-
 .DS_Store
 Thumbs.db
 txt.md
+assets
