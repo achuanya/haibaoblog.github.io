@@ -1,4 +1,4 @@
-- name: Setup Python
+- name: Upload to COS
   uses: actions/setup-python@v4
   with:
     python-version: 3.9
