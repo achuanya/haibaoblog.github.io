@@ -10,7 +10,7 @@ tags: [关于, 博客, 游钓四方, blog]
 好多年前，在某个网站听到这首曲子的背景音乐，听着有感觉，便将其扒了下来（[fmmusic.mid]({{ site.IMG_PATH }}/fmmusic.mid)，当年的文件，MIDI 格式的），听得多了，就感觉对自己来说有某种特殊的意义，后来才知道它的名字及由来。
 {% endcomment %}
 
-* atom 订阅：[https://lhasa.icu/atom.xml][1]
+* atom 订阅： [https://lhasa.icu/atom.xml][1]
 
 请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免因为兼容性影响阅读体验。
 
@@ -44,22 +44,19 @@ tags: [关于, 博客, 游钓四方, blog]
 
 
 [1]: https://lhasa.icu/atom.xml
-
 [2]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
-
 [3]: https://github.com/achuanya
 
-
 <script>
-var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2011-02-09" | date: "%s" }}) / (60 * 60 * 24));
-(function daysCount(){
-    if(days > daysMax){
-        document.getElementById('days').innerHTML = daysMax;
-        return;
-    } else {
-        document.getElementById('days').innerHTML = days;
-        days += 10;
-        setTimeout(daysCount, 1); 
-    }
-})();
+    var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2011-02-09" | date: "%s" }}) / (60 * 60 * 24));
+    (function daysCount(){
+        if(days > daysMax){
+            document.getElementById('days').innerHTML = daysMax;
+            return;
+        } else {
+            document.getElementById('days').innerHTML = days;
+            days += 10;
+            setTimeout(daysCount, 1); 
+        }
+    })();
 </script>
