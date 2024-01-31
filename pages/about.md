@@ -23,7 +23,7 @@ tags: [关于, 博客, fooleap, blog]
 
 ## 博主
 
-<img class="my-photo" src="https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/my-photo.jpg_640">
+<img class="my-photo" src="https://cos.lhasa.icu/assets/images/my-photo.jpg_640">
 
 千禧年小屁孩，代码、计算机纯属个人爱好，怀旧着，记录着 正在的发生美好往昔
 
@@ -40,10 +40,9 @@ tags: [关于, 博客, fooleap, blog]
 * 2018-08-31 由 Github Pages 托管，dynadot 购入域名 achuan.io，起名：阿川的个人博客
 * 2024-01-23 腾讯云购入 lhasa.icu，博客改名为：游钓四方的博客
 * 2024-01-22 因原代码多端交互历史遗留问题，舍弃原有博客，fork fooleap blog
-* 2024-01-23 全站css、js图片等静态资源走腾讯 对象储存 COS
-* 2024-01-29 域名备案完成，由腾讯云 内容分发网络 CDN 全球加速
-<!-- * 2024-01-25 使用 Disqus API 反向代理解决评论问题 -->
-<!-- * 2024-01-25 使用 WebPack 打包前端资源 -->
+* 2024-01-31 全站css、js图片等静态资源走腾讯 对象储存 COS
+* 2024-01-31 域名备案完成，由腾讯云 内容分发网络 CDN 全球加速
+
 
 
 
