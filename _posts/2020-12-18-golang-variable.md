@@ -148,7 +148,7 @@ Golang是一种强类型语言，不同类型的数据不能赋值，不能在�
 
 用Golang求出直角三角形斜边值`5`
 
-![Alt text]({{ site.article }}2020-12-18-golang-variable/example.png?achuan.io "用Golang求出直角三角形斜边值`5`") 
+![Alt text]({{ site.IMG_PATH }}/example.png "用Golang求出直角三角形斜边值`5`") 
 
 ```go
 package main

@@ -27,7 +27,7 @@ Cheers, Sergey.
 
 
 
-![消息]({{ site.article }}2020-04-26-phpstorm-official-Chinese/Style.png?achuan.io "消息")
+![消息]({{ site.IMG_PATH }}/Style.png "示例")
 
 
 

@@ -241,7 +241,7 @@ $ sudo vi /etc/php/5.6/apache2/php.ini
 ```
 
 输入我的公网ip查看一下  
-![Alt text]({{ site.article }}2018-11-08-Ubuntu-Deployment/phpinfo.png?achuan.io "php5.6安装成功！Cheers!") 
+![Alt text]({{ site.IMG_PATH }}/phpinfo.png "php5.6安装成功！Cheers!") 
 
 
 ## 安装mysql

@@ -888,7 +888,7 @@ $ annie -f 80 -p https://www.bilibili.com/video/BV1FV411d7u7
 
 最后再来一张图啊哈哈哈～
 
-![我的桌面]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
+![我的桌面]({{ site.IMG_PATH }}/My desktop.png "我的桌面")
 
 
 ## 后续报错
