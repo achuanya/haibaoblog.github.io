@@ -19,13 +19,13 @@ kramdown:
   toc_levels:     '2,3'
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
 emoji:
-    src: 'https://api.fooleap.org'
+    src: 'https://disqus.lhasa.icu'
 paginate: 10
 repository: achuanya/lhasa.github.io
 
-nickname: fooleap
-home: https://blog.fooleap.org
-api: https://api.fooleap.org
+nickname: lhasa
+home: https://lhasa.icu
+api: https://disqus.lhasa.icu
 IMG_PATH: https://cos.lhasa.icu/assets/article
 CSS_PATH: https://cos.lhasa.icu/assets/css
 JS_PATH: https://cos.lhasa.icu/assets/js
