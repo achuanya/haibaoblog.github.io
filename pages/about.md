@@ -24,9 +24,9 @@ tags: [关于, 博客, 游钓四方, blog]
 长途骑行小学生、野钓路亚、振出并继、萨克斯、提琴、摇滚、蓝调布鲁斯爱好者
 
 - Email: <haibao1027@gmail.com>
-- Github：[achuanya](https://github.com/achuanya)
+- Github：[achuanya][2]
 
-[<img src="https://ghchart.rshah.org/7db9de/achuanya" alt="achuanya's Github chart" />][3]
+[<img src="https://ghchart.rshah.org/7db9de/achuanya" alt="achuanya's Github chart" />][2]
 
 ## 博客进程
 
@@ -39,6 +39,7 @@ tags: [关于, 博客, 游钓四方, blog]
 
 
 [1]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
+[2]: https://github.com/achuanya
 
 <script>
     var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2018-08-31" | date: "%s" }}) / (60 * 60 * 24));
