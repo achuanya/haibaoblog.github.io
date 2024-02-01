@@ -7,29 +7,10 @@ layout: compress
 {% include head.html %}
 
     <body>
-
-        {% if page.thumb %}
-        {% assign thumbnail = page.thumb | replace:'IMG_PATH', site.IMG_PATH %}
-        {% else %}
-        {% if page.content contains site.IMG_PATH %}
-        {% assign images = page.content | split:'<img src="' %}
-        {% for image in images %}
-        {% if image contains site.IMG_PATH %}
-        {% assign thumbnail = image | split:"?imageView" | first | split: '"' | first | remove: "_640v" | remove: "_640" %}
-        {% break %}
-        {% endif %}
-        {% endfor %}
-        {% else %}
-        {% assign thumbnail = site.IMG_PATH | append: "/avatar.jpg" %}
-        {% endif %}
-        {% endif %}
-
-        {% if thumbnail contains "svg" %}{% assign thumbnail = thumbnail %}{% else %}{% assign thumbnail = thumbnail | append: "?imageView2/1/w/300/h/300/q/90" %}{% endif %}
-
         <div class="page-thumb">
             <img src="{{ thumbnail }}" alt="{{ page.title }}"/>
         </div>
-
+        
 {% include nav.html %}
 
         <main class="page-main">
@@ -39,11 +20,11 @@ layout: compress
                     <a class="page-title-link" href="{% if page.title %}{{ page.url }}{% else %}{{ site.home }}{% endif %}">
                         {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
                     </a>
-                        {% if page.url == '/archive.html' %}
-                        <div class="search-article">
-                            <input class="page-search-input" type="text" placeholder="搜索（Enter 全文搜索）"/>
-                        </div>
-                        {% endif %}
+                    {% if page.url == '/archive.html' %}
+                    <div class="search-article">
+                        <input class="page-search-input" type="text" placeholder="搜索（Enter 全文搜索）"/>
+                    </div>
+                    {% endif %}
                 </h1>
 
                     <h2 class="page-subtitle">
