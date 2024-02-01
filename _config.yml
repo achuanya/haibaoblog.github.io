@@ -5,7 +5,7 @@ host: 127.0.0.1
 title: 游钓四方的博客
 keywords: [游钓四方, 骑行, 钓鱼, 提琴or萨克斯]
 description: '钓五湖四海，交八方朋友'
-timezone: Asia/Shanghai
+# timezone: Asia/Shanghai
 
 exclude: [webpack.config.js, package.json, Gemfile, Gemfile.lock, src, node_modules]
 plugins: [jekyll-paginate, jemoji]
@@ -27,7 +27,5 @@ nickname: lhasa
 home: https://lhasa.icu
 api: https://disqus.lhasa.icu
 IMG_PATH: https://cos.lhasa.icu/assets/article
-CSS_PATH: https://cos.lhasa.icu/assets/css
-JS_PATH: https://cos.lhasa.icu/assets/js
 tongji: 'fa7ec982118ebd236663169678264582'
 analytics: 'UA-16717905-7'

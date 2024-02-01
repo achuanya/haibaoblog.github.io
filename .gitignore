@@ -5,3 +5,4 @@ _site*
 Thumbs.db
 txt.md
 assets
+/assets/test
