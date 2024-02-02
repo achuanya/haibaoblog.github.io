@@ -22,6 +22,7 @@
   <link rel="icon" href="https://cos.lhasa.icu/assets/images/favicon.ico" />
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom Feed" href="https://lhasa.icu/atom.xml" />
   <link rel="stylesheet" href="https://cos.lhasa.icu/assets/css/main.min.css?v={{ site.time | date: '%s' }}" />
+
   <script>
     var ua = navigator.userAgent,
       head = document.head,
@@ -55,10 +56,14 @@
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?2f325d81a4b600b2b4be3c277d6fa88a";
       var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-      })();
+      s.parentNode.insertBefore(hm, s);})();
+
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "kv80h2enli");
       
   </script>
   <script src="https://cos.lhasa.icu/assets/js/main.min.js?v={{ site.time | date: '%s' }}"></script>
-
 </head>
