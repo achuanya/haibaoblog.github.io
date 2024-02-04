@@ -26,6 +26,15 @@ layout: compress
                         <input class="page-search-input" type="text" placeholder="搜索（Enter 全文搜索）"/>
                     </div>
                     {% endif %}
+
+                    {% if page.url == '/about.html' %}
+                    <div class="search-article">
+                        <a href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Flhasa.icu%2Fatom.xml'  target='blank'>
+                            <img id='feedlyFollow' title="欢迎使用Feedly订阅我的博客，此操作需要科学上网" src='https://cos.lhasa.icu/assets/images/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'>
+                        </a>
+                    </div>
+                    {% endif %}
+
                 </h1>
 
                     <h2 class="page-subtitle">

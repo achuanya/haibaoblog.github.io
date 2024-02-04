@@ -5,7 +5,7 @@ title: 关于
 tags: [关于, 博客, 游钓四方, blog]
 ---
 
-* Atom 订阅：[https://lhasa.icu/atom.xml](/atom.xml)
+* Atom 订阅：[https://lhasa.icu/atom.xml](/atom.xml) 
 
 请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免因为兼容性影响阅读体验。
 
