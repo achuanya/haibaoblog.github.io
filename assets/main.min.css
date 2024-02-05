@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 仓耳今楷01-W04;
+	src: url("https://cos.lhasa.icu/assets/font/tsanger01W04.ttf")  format("truetype");
+
+}
+* {
+	font-family: 仓耳今楷01-W04 !important;
+}
 .navigation {
 	position: fixed;
 	top: 20px;
@@ -204,7 +212,7 @@ body {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased
+	-webkit-font-smoothing: antialiased;
 }
 
 .page-thumb {
@@ -363,7 +371,7 @@ body {
 	border-radius: 0;
 	font-size: 15px;
 	color: 333;
-    font-family: 微软雅黑;
+    /* font-family: 微软雅黑; */
 }
 
 .page-header .page-subtitle {
@@ -794,7 +802,7 @@ body {
 	border: 1px solid #d5d5d5;
 	border-radius: 5px;
 	font-size: 15px;
-    font-family: 微软雅黑;
+    /* font-family: 微软雅黑; */
 }
 
 .search .search-result-item {
@@ -909,7 +917,7 @@ body {
 
 pre,code {
 	font-size: 12px;
-	font-family: "Roboto Mono", Consolas, source-han-sans-cjk-sc, monospace;
+	/* font-family: "Roboto Mono", Consolas, source-han-sans-cjk-sc, monospace; */
 	background-color: #f5f5f5;
 	overflow: auto;
 	padding: 5px 10px;
@@ -1366,7 +1374,7 @@ pre.terminal code {
 .c {
 	color: #999988;
 	font-style: italic;
-	font-family: sans-serif
+	/* font-family: sans-serif */
 }
 
 .err {
@@ -1387,27 +1395,27 @@ pre.terminal code {
 .cm {
 	color: #999988;
 	font-style: italic;
-	font-family: sans-serif
+	/* font-family: sans-serif */
 }
 
 .cp {
 	color: #999999;
 	font-weight: 500;
 	font-style: italic;
-	font-family: sans-serif
+	/* font-family: sans-serif */
 }
 
 .c1 {
 	color: #999988;
 	font-style: italic;
-	font-family: sans-serif
+	/* font-family: sans-serif */
 }
 
 .cs {
 	color: #999999;
 	font-weight: 500;
 	font-style: italic;
-	font-family: sans-serif
+	/* font-family: sans-serif */
 }
 
 .gd {
@@ -1843,4 +1851,15 @@ pre.terminal code {
 	height: 23rem;
 	object-fit: cover;
 	display: block;
+}
+
+/*
+ *@Corresponding item: about.md
+ *@author: 游钓四方 
+*/
+#feedlyFollow {
+	width: 105px;
+	height: 38px;
+    position: relative;
+    top: 10px;
 }
