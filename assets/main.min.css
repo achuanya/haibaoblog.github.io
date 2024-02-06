@@ -130,7 +130,8 @@
 	text-decoration: none;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center
+	align-items: center;
+	font-size: 18px;
 }
 
 .navigation .navigation-list .icon {
@@ -207,7 +208,7 @@ body {
 	color: #222;
 	background-color: #7db9de;
 	overflow-y: scroll;
-	font: 400 14px/1.6 -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+	font: 400 16px/1.6 -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -347,7 +348,11 @@ body {
 .page-header .page-title .page-title-link {
 	color: #000;
 	border-bottom: none;
-	display: block
+	display: block;
+}
+
+.page-title-link {
+	font-size: 20px;
 }
 
 .page-header .page-title .page-title-desc {
@@ -377,60 +382,60 @@ body {
 .page-header .page-subtitle {
 	color: #969696;
 	width: 100%;
-	font-size: 13px;
-	line-height: 2
+	font-size: 16px;
+	line-height: 2;
 }
 
 .page-header .page-subtitle:hover {
-	border-bottom: none
+	border-bottom: none;
 }
 
 .page-header .post-time {
-	word-spacing: -1px
+	word-spacing: -1px;
 }
 
 .page-header .post-cat-tag {
-	margin-right: 8px
+	margin-right: 8px;
 }
 
 .page-header .post-cat-tag.active {
-	color: #000
+	color: #000;
 }
 
 .page-header .post-cat-tag:hover {
-	border-bottom: none
+	border-bottom: none;
 }
 
 .page-header .post-cat-tag:last-child {
-	float: right
+	float: right;
 }
 
 .page-footer {
 	text-align: center;
-	color: #969696
+	color: #969696;
 }
 
 .page-footer a {
-	color: #969696
+	color: #969696;
 }
 
 .post-list {
-	min-height: 680px
+	min-height: 680px;
 }
 
 .post-list a:hover {
-	border-bottom: 1px dashed #2ea9df
+	border-bottom: 1px dashed #2ea9df;
 }
 
 .post-list a:target {
-	background-color: rgba(230,230,230,0.5)
+	background-color: rgba(230,230,230,0.5);
 }
 
 .post-item {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin: 20px 0
+	margin: 20px 0;
 }
 
 .post-item .post-item-thumb {
@@ -444,7 +449,7 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-color: #fff
+	background-color: #fff;
 }
 
 .post-item .post-item-summary {
@@ -457,7 +462,7 @@ body {
 }
 
 .post-item .post-item-summary .post-item-title {
-	font-size: 14px;
+	font-size: 16px;
 	color: #2ea9df;
 	height: 25px;
 	overflow: hidden;
@@ -592,7 +597,7 @@ body {
 .pagination .pagination-list {
 	list-style-type: none;
 	margin: 10px auto;
-	font-size: 13px;
+	font-size: 16px;
 	overflow: hidden;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -609,7 +614,7 @@ body {
 }
 
 .pagination .pagination-item {
-	padding: 0 10px;
+	padding: 0 9px;
 	text-align: center;
 	width: 100px
 }
@@ -640,7 +645,7 @@ body {
 
 .post-content ul,.post-content ol {
 	margin-left: 25px;
-	font-size: 13px
+	font-size: 16px
 }
 
 .post-content>* {
@@ -650,7 +655,7 @@ body {
 .post-content h2 {
 	border-left: 4px solid #2ea9df;
 	padding-left: 5px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500
 }
 
@@ -665,11 +670,6 @@ body {
 
 .post-content h3:hover:after,.post-content h3:target:after {
 	content: " ¶"
-}
-
-.post-content a:not([href*="blog.fooleap.org"]):not([href^="#"]):not([href^="/"]):not([target="_blank"]),.post-content a[href^="#note"] {
-	vertical-align: super;
-	font-size: smaller
 }
 
 .post-content blockquote {
@@ -916,7 +916,7 @@ body {
 }
 
 pre,code {
-	font-size: 12px;
+	font-size: 14px;
 	/* font-family: "Roboto Mono", Consolas, source-han-sans-cjk-sc, monospace; */
 	background-color: #f5f5f5;
 	overflow: auto;
