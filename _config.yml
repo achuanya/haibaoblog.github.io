@@ -19,7 +19,7 @@ kramdown:
   toc_levels:     '2,3'
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
 emoji:
-    src: 'https://disqus.lhasa.icu'
+    src: 'https://api.lhasa.icu'
 paginate: 10
 repository: achuanya/lhasa.github.io
 
