@@ -25,7 +25,7 @@ repository: achuanya/lhasa.github.io
 
 nickname: lhasa
 home: https://lhasa.icu
-api: https://disqus.lhasa.icu
+api: https://api.lhasa.icu
 disqus_api: https://disqus.lhasa.icu
 IMG_PATH: https://cos.lhasa.icu/assets/article
 tongji: '2f325d81a4b600b2b4be3c277d6fa88a'
