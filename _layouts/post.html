@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post-content">
+  {% if content contains site.IMG_PATH %}
+    {% assign images = content | split:'<img src="' %}
+    {% for image in images %}
+      {% if image contains site.IMG_PATH %}
+        {% assign thumbSrc = image | split: '" ' | first %}
+        {% assign imageSrc = thumbSrc | split: '?imageView' | first | remove: "_640v" | remove: "_640" %}
+        {% assign newImage = thumbSrc | prepend: '" data-url="' | prepend: thumbSrc | append: '" data-src="' | append: imageSrc %}
+        {% if thumbSrc contains site.IMG_PATH and newImage contains site.IMG_PATH %}
+            {% assign content = content | replace: thumbSrc, newImage %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% assign content = content | replace_first:'id="markdown-toc"','class="post-toc"' %}
+  {{ content }}
+</article>
+
+{% include  extend.html %}
+
+{% include info.html %}
+<div id="comment"></div>

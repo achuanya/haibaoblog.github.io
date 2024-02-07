@@ -1,0 +1,34 @@
+encoding: utf-8
+port: 5679
+host: 127.0.0.1
+
+title: 游钓四方的博客
+keywords: [游钓四方, 骑行, 钓鱼, 提琴or萨克斯]
+description: '钓五湖四海，交八方朋友'
+timezone: Asia/Shanghai
+
+exclude: [webpack.config.js, package.json, Gemfile, Gemfile.lock, src, node_modules]
+plugins: [jekyll-paginate, jemoji]
+
+permalink: /:title.html
+highlighter: rouge
+markdown: kramdown
+kramdown: 
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+  toc_levels:     '2,3'
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+emoji:
+    src: 'https://api.lhasa.icu'
+paginate: 10
+repository: achuanya/lhasa.github.io
+
+nickname: lhasa
+home: https://lhasa.icu
+api: https://api.lhasa.icu
+disqus_api: https://disqus.lhasa.icu
+IMG_PATH: https://cos.lhasa.icu/assets/article
+tongji: '2f325d81a4b600b2b4be3c277d6fa88a'
+analytics: ''
+clarity: 'kv84gdjved'
+gtag: 'G-19Q4N0N6FV'
