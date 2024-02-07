@@ -11,9 +11,6 @@ tags: [音乐]
 <br>
 <div id="music_bg"></div>
 <div id="heoMusic-page"></div>
-<div class="comment-guestbook">
-  <div id="comment"></div>
-</div>
 <script>
   var userId = "9260534371";
   var userServer = "netease";
