@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 腾讯云COS文件跨域
+title: 测试
 date: 2024-02-05 17:33:06 +0800
 category: tech
 thumb: IMG_PATH/Tencent-cloud-COS-file-cross-domains.png
