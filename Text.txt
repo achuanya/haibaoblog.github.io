@@ -1,6 +1,7 @@
 https://lhasa.icu/
 https://lhasa.icu/about.html
 https://lhasa.icu/archive.html
+https://lhasa.icu/music.html
 https://lhasa.icu/guestbook.html
 https://lhasa.icu/Ubuntu-set-up-sublime.html
 https://lhasa.icu/Learning-the-open-source.html
@@ -44,17 +45,16 @@ https://lhasa.icu/ThinkPHP6.0-installation.html
 https://lhasa.icu/phpstorm-official-Chinese.html
 https://lhasa.icu/fishing.html
 https://lhasa.icu/JetBrains-Open-Source-license.html
-
 https://lhasa.icu/if-else-confuse.html
 https://lhasa.icu/Docker-LNMP.html
 https://lhasa.icu/DisableTouchpad.html
 https://lhasa.icu/manjaro-dual-graphics.html
 https://lhasa.icu/golang-variable.html
-
 https://lhasa.icu/golang-consts.html
 https://lhasa.icu/West-Lake-Tour.html
 https://lhasa.icu/The_song_begins.html
 https://lhasa.icu/Tea-set.html
 https://lhasa.icu/North-south-dietary-differences.html
-
+https://lhasa.icu/TechnologyBlessingAndCurse.html
+https://lhasa.icu/Tencent-cloud-COS-file-cross-domain.html
 https://lhasa.icu/RidingRecordOne.html
