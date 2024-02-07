@@ -770,48 +770,6 @@ pre {
   }
 }
 
-.wechat-related{
-  display: flex;
-  justify-content: center;
-  margin: 60px 0 30px;
-  .wechat-related-item{
-    margin: 0 10px;
-    background-color: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
-    border-radius: 3px;
-  }
-
-  .wechat-related-title {
-    display: block;
-    text-align: center;
-    color: #51c332;
-    font-size: 12px;
-    .icon{
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      fill: #51c332;
-    }
-  }
-
-  .wechat-paycode{
-    ~ .wechat-related-title{
-      color: #f46f56;
-      .icon{
-        width: 13px;
-        height: 13px;
-      }
-    }
-  }
-
-  .wechat-related-code{
-    padding: 10px 10px 5px;
-    width: 120px;
-    height: 115px;
-    background-size: cover;
-  }
-}
-
 .post-info {
   font-size: 13px;
   line-height: 20px;
