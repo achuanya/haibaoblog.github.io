@@ -1,7 +1,8 @@
 ---
-layout : page
+layout: page
 permalink: /music.html
-title : 音乐
+title: 音乐
+tags: [音乐]
 ---
 <link rel="stylesheet" type="text/css" href="https://cos.lhasa.icu/assets/css/APlayer.min.css">
 <br>
