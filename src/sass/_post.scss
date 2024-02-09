@@ -1,10 +1,4 @@
 @charset "utf-8";
-/* 游钓四方 */
-@font-face {
-	font-family: 仓耳今楷01-W04;
-	src: url("https://cos.lhasa.icu/assets/font/tsanger01W04.ttf")  format("truetype");
-
-}
 /* Utility */
 * {
   margin: 0;
@@ -71,7 +65,7 @@ body {
   color: $default;
   background-color: $lightblue;
   overflow-y: scroll;
-  font: 400 16px/1.6 -apple-system, 仓耳今楷01-W04;
+  font: 400 16px/1.6 TsangerJinKai01 W04;
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -702,7 +696,6 @@ body {
 pre,
 code {
   font-size: 14px;
-  font-family: "Roboto Mono", Consolas, source-han-sans-cjk-sc, monospace;
   background-color: rgb(245, 245, 245);
   overflow: auto;
   padding: 5px 10px;
@@ -921,6 +914,21 @@ pre {
   }
 }
 
+/* 新年灯笼 */
+@media screen and (max-width: 1100px) {
+  .deng-box1 {
+    display:none
+  }
+  .deng-box2 {
+    display:none
+  }
+  .deng-box3 {
+    display:none
+  }
+  .deng-box4 {
+    display:none
+  }
+}
 .deng-box1 {
   position: fixed;
   top: -30px;
@@ -1096,7 +1104,6 @@ pre {
 }
 
 .deng-t {
-  font-family: 华文行楷,Arial,Lucida Grande,Tahoma,sans-serif;
   font-size: 3.2rem;
   color: #dc8f03;
   font-weight: bold;

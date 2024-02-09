@@ -1,4 +1,9 @@
 https://lhasa.icu/
+https://lhasa.icu/page2/
+https://lhasa.icu/page3/
+https://lhasa.icu/page4/
+https://lhasa.icu/page5/
+https://lhasa.icu/page6/
 https://lhasa.icu/about.html
 https://lhasa.icu/archive.html
 https://lhasa.icu/music.html
