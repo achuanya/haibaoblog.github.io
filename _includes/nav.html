@@ -4,16 +4,16 @@
     <label class="navigation-mask" for="menu"></label>
     <ul class="navigation-list">
         <li class="navigation-item {% if page.url == '/' %} current{% endif %}">
-            <a class="navigation-item-link" href="/" target="_blank" rel="noopener" title="点进去看文章列表">{% include svg/home.svg %}首页</a>
+            <a class="navigation-item-link" href="/" rel="noopener" title="点进去看文章列表">{% include svg/home.svg %}首页</a>
         </li>
         <li class="navigation-item{% if page.url == '/about.html' %} current{% endif %}">
-            <a class="navigation-item-link" href="/about.html" target="_blank" rel="noopener" title="博主简介">{% include svg/about.svg %}关于</a>
+            <a class="navigation-item-link" href="/about.html" rel="noopener" title="博主简介">{% include svg/about.svg %}关于</a>
         </li>
         <li class="navigation-item{% if page.url == '/archive.html' %} current{% endif %}">
-            <a class="navigation-item-link" href="/archive.html" target="_blank" rel="noopener" title="往年文章总汇">{% include svg/archive.svg %}归档</a>
+            <a class="navigation-item-link" href="/archive.html" rel="noopener" title="往年文章总汇">{% include svg/archive.svg %}归档</a>
         </li>
         <li class="navigation-item{% if page.url == '/links.html' %} current{% endif %}">
-            <a class="navigation-item-link" href="/links.html" target="_blank" rel="noopener" title="友联列表">{% include svg/link.svg %}链接</a>
+            <a class="navigation-item-link" href="/links.html" rel="noopener" title="友联列表">{% include svg/link.svg %}链接</a>
         </li>
         <li class="navigation-item{% if page.url == '/music.html' %} current{% endif %}">
             <a class="navigation-item-link" href="/music.html" target="_blank" rel="noopener" title="听好音乐，就点进来看看">{% include svg/music.svg %}音乐</a>
@@ -22,9 +22,7 @@
             <a class="navigation-item-link" href="/guestbook.html" target="_blank" rel="noopener" title="牛逼的人都会说两句">{% include svg/comments.svg %}留言</a>
         </li>
         <li class="navigation-item{% if page.url == '/guestbook.html' %} current{% endif %}">
-            <a class="navigation-item-link" href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
-                {% include svg/travelling.svg %}开往
-            </a>
+            <a class="navigation-item-link" href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">{% include svg/travelling.svg %}开往</a>
         </li>
     </ul>
 </nav>
