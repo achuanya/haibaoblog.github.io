@@ -51,5 +51,5 @@ $ dpkg -s kchmviewer
 ![Alt text]({{ site.IMG_PATH }}/ubuntu-lock3.png?achuan.io "系统没有安装包kchmviewer") 
 
 
-[1]: http://php.net?achuan.io
+[1]: https://php.net?achuan.io
 [2]: https://github.com/gyunaev/kchmviewer?achuan.io

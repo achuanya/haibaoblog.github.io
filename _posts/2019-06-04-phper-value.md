@@ -7,7 +7,7 @@ thumb: IMG_PATH/jiazhi.jpg
 tags: [程序员, 价值]
 ---
 
-本文转自[Laruence](http://www.laruence.com/2015/01/02/2999.html)
+本文转自[Laruence](https://www.laruence.com/2015/01/02/2999.html)
 
 ---
 

@@ -32,7 +32,6 @@ $ sudo pacman -S vim git rpm yay unzip snapd you-get annie
 $ sudo systemctl enable --now snapd.socket
 
 # Git代理，需配合Qv2ray使用
-$ git config --global http.proxy http://127.0.0.1:8888
 $ git config --global https.proxy https://127.0.0.1:8888
 
 # 主目录改为英文

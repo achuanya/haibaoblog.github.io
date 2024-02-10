@@ -73,7 +73,7 @@ Sublime Text3 是一款轻量级的编辑器，它干净、实用、漂亮，还
 2.复制粘贴以下代码添加至命令行，然后回车（它用来安装插件的工具）
 
 
-        import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+        import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'https://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 
 
 3.重启`Sublime Text`，查看 `Perferences > Package settings` 中是否有 `Package control` （命令面板）这一项，如果有，则安装成功

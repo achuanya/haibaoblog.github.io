@@ -1,20 +1,15 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
-
 {% include head.html %}
-
     <body>
 {% include lantern.html %} 
         <div class="page-thumb">
             <img src="{{ thumbnail }}" alt="{{ page.title }}"/>
         </div>
-        
 {% include nav.html %}
-
         <main class="page-main">
             <header class="page-header">
                 <hgroup class="page-hgroup">
@@ -27,17 +22,7 @@ layout: compress
                         <input class="page-search-input" type="text" placeholder="搜索（Enter 全文搜索）"/>
                     </div>
                     {% endif %}
-
-                    {% if page.url == '/about.html' %}
-                    <div class="search-article">
-                        <a href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Flhasa.icu%2Fatom.xml'  target='blank'>
-                            <img id='feedlyFollow' title="欢迎使用Feedly订阅我的博客，此操作需要科学上网" src='https://cos.lhasa.icu/assets/images/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'>
-                        </a>
-                    </div>
-                    {% endif %}
-
                 </h1>
-
                     <h2 class="page-subtitle">
                     {% if page.date %}
                     <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y 年 %m 月 %d 日 %R" }}</time>
@@ -83,6 +68,11 @@ layout: compress
             </footer>
         </main>
     </body>
+    <div id="preview">
+        <div class="previewCenter">
+            <img id="previewImage">
+        </div>
+    </div>
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NPQH5FL" height="0" width="0" style="display:none;visibility:hidden">
     </iframe>

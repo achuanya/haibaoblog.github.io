@@ -6,7 +6,7 @@ thumb: 'IMG_PATH/fazhan.jpg'
 tags: [思考, 发展]
 ---
 
-本文转自[IT技术博客大学习](http://blogread.cn/it/article/6367?f=wb?achuan.io)
+本文转自[IT技术博客大学习](https://blogread.cn/it/article/6367?f=wb?achuan.io)
 
 ---
 

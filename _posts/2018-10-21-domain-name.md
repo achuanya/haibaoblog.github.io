@@ -37,5 +37,5 @@ tags: [update, bug]
 [15]: https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E6%80%A7%E5%8D%94%E5%AE%9A?achuan.io
 [16]: https://zh.wikipedia.org/wiki/GoDaddy
 [17]: https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%A8%98%E9%8C%84%E9%A1%9E%E5%9E%8B%E5%88%97%E8%A1%A8?achuan.io
-[18]: http://ym.163.com?achuan.io
+[18]: https://ym.163.com?achuan.io
 [19]: https://zh.wikipedia.org/wiki/MX%E8%AE%B0%E5%BD%95?achuan.io

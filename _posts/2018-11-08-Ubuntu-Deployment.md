@@ -361,10 +361,10 @@ $ sudo apt-get install phpmyadmin
 $ sudo ln -s /usr/share/phpmyadmin /var/www
 ```
 
-输入网址即可： http://localhost/phpmyadmin
+输入网址即可： https://localhost/phpmyadmin
 
 这次部署Ubuntu Server体会不少，我真是越来越喜欢linux了，它真是一个非常有魅力的系统！哈哈哈，到这里吧，太晚了要回寝室睡觉了--  
 本篇文章如有写的不足之处，还请您多多指教！88！
 
-[1]: http://linux.51yip.com/search/ssh?achuan.io
+[1]: https://linux.51yip.com/search/ssh?achuan.io
 [2]: https://zh.wikipedia.org/wiki/Apache_HTTP_Server?achuan.io

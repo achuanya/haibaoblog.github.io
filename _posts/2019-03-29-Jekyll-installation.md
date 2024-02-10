@@ -52,7 +52,7 @@ ruby官网下载地址（下载速度奇慢）
 以前还有淘宝源可以用，不过现在也就已经凉了，下面是我们要替换成国内RubyGems镜像站点
 
 ```bash
-> gem sources -a http://gems.ruby-china.com
+> gem sources -a https://gems.ruby-china.com
 ```
 
 ## DevKit的安装与配置
@@ -180,7 +180,7 @@ Configuration file: H:/git/achuanya.github.io/_config.yml
   Please add the following to your Gemfile to avoid polling for changes:
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
  Auto-regeneration: enabled for 'H:/git/achuanya.github.io'
-    Server address: http://127.0.0.1:4001/
+    Server address: https://127.0.0.1:4001/
   Server running... press ctrl-c to stop.
 ```
 

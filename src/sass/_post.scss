@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'TsangerJinKai01 W04';
 }
 a{
   text-decoration: none;
@@ -49,6 +50,7 @@ img{
   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+  cursor: pointer;
 }
 
 html {
@@ -65,7 +67,9 @@ body {
   color: $default;
   background-color: $lightblue;
   overflow-y: scroll;
-  font: 400 16px/1.6 TsangerJinKai01 W04;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -202,12 +206,13 @@ body {
       border: 0px;
       border-radius: 0;
       font-size: 14px;
-      color: 333;
+      color: #333;
     }
     /* 归档搜索 */
     .search-article {
       position: absolute;
       right: 0px;
+      cursor: pointer;
     }
     .search-article input {
       height: 32px;
@@ -246,7 +251,9 @@ body {
 /* 归档搜索 */
 @media screen and (max-width: 430px) {
 	.search-article {
-		right: 60px;
+    position: absolute;
+		right: 18px;
+    
 	}
 	.my-photo {
 		height: 13rem !important;
@@ -550,6 +557,7 @@ body {
       opacity: .7;
     }
     .post-image {
+      border-bottom: 30px solid #ffffff;
       cursor: pointer;
       display: block;
       max-width: 100%;
@@ -569,7 +577,7 @@ body {
       padding: 0 5px;
       line-height: 30px;
       text-shadow: 0 0 1px rgba(0,0,0,.3);
-      font-size: 12px;
+      font-size: 14px;
       background: linear-gradient(to right, rgba(0, 0, 0, .8), transparent);
     }
     .post-image.small + .post-figcaption {
@@ -831,9 +839,6 @@ pre {
         display: none;
       }
     }
-    .wechat:hover .icon {
-      fill: rgb(81, 195, 50);
-    }
     .weibo:hover .icon {
       fill: rgb(231, 44, 64);
     }
@@ -842,37 +847,6 @@ pre {
     }
     .twitter:hover .icon{
       fill: rgb(85, 172, 238);
-    }
-    .facebook:hover .icon {
-      fill: rgb(65, 93, 152);
-    }
-    .gplus:hover .icon {
-      fill: rgb(219, 68, 55);
-    }
-    .post-qrcode {
-      display: none;
-      position: absolute;
-      bottom: 30px;
-      right: 80px;
-      width: 100px;
-      height: 100px;
-      overflow: hidden;
-      background-color: $white;
-      padding: 10px;
-      border: 1px solid $lightgray;
-      border-radius: 5px;
-      box-shadow: 1px 1px 2px rgb(150, 150, 150);
-    }
-    .post-qrcode-input{
-      display: none;
-    }
-    .post-qrcode-input:checked{
-      + .post-qrcode{
-        display: block;
-      }
-      ~ .wechat .icon {
-        fill: rgb(81, 195, 50);
-      }
     }
   }
 }
@@ -940,7 +914,7 @@ pre {
 .deng-box2 {
   position: fixed;
   top: -25px;
-  left: 10%;
+  left: 13%;
   z-index: 9999;
   pointer-events: none;
 }
@@ -948,7 +922,7 @@ pre {
 .deng-box3 {
   position: fixed;
   top: -28px;
-  right: 9%;
+  right: 7%;
   z-index: 9999;
   pointer-events: none;
 }
@@ -956,7 +930,7 @@ pre {
 .deng-box4 {
   position: fixed;
   top: -26px;
-  right: 11%;
+  right: 13%;
   z-index: 9999;
   pointer-events: none;
 }
@@ -1143,4 +1117,43 @@ pre {
   100% {
       -webkit-transform: rotate(-10deg)
   }
+}
+
+#preview {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.previewCenter {
+  max-width: 640px;
+  overflow: hidden;
+}
+
+#previewImage {
+  max-width: 100%;
+  width: auto;
+  overflow: hidden;
+  border-bottom: 30px solid #ffffff;
+  border-radius: 8px;
+}
+
+.previewImageTitle {
+  position: relative;
+  top: -38px;
+  display: block;
+  bottom: 0;
+  color: #fff;
+  padding: 0 5px;
+  line-height: 37px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  font-size: 14px;
+  background: linear-gradient(to right, rgba(0, 0, 0, .8), transparent);
+  text-align: left;
 }

@@ -50,4 +50,4 @@ Windows 技术设计上的很多细节，也许在早期是同样糟糕的。但
 
 后记：“对用户友好”是一个值得研究，却又研究得非常不够的东西。很多 UI 的设计者，把东西设计的很漂亮，但是却不方便，不顺手。如果你想了解我认为怎样的设计才是“对用户友好的”，可以参考这篇博客[《什么是“对用户友好”》][1]
 
-[1]: http://www.yinwang.org/blog-cn/2012/05/18/user-friendliness
+[1]: https://www.yinwang.org/blog-cn/2012/05/18/user-friendliness

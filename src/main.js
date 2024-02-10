@@ -1,9 +1,5 @@
 var iDisqus = require('disqus-php-api');
-var wx = require('weixin-js-sdk');
 var coordtransform = require('coordtransform');
-var raphael = require('webpack-raphael');
-var flowchart = require('flowchart.js');
-var QRCode = require('davidshimjs-qrcodejs');
 import './sass/main.scss';
 var _hmt = _hmt || [];
 
@@ -25,7 +21,6 @@ Date.prototype.Format = function (fmt) {
 
 // TimeAgo https://coderwall.com/p/uub3pw/javascript-timeago-func-e-g-8-hours-ago
 function timeAgo(selector) {
-
   var templates = {
     prefix: "",
     suffix: "前",
@@ -120,46 +115,11 @@ function getQuery(variable) {
   return (false);
 }
 
-
-// 微信 SDK
-if (browser.wechat && location.origin == site.home) {
-  var xhrwesign = new XMLHttpRequest();
-  xhrwesign.onreadystatechange = function () {
-    if (xhrwesign.readyState == 4 && xhrwesign.status == 200) {
-      var signPackage = JSON.parse(xhrwesign.responseText);
-      wx.config({
-        debug: false,
-        appId: signPackage.appId,
-        timestamp: signPackage.timestamp,
-        nonceStr: signPackage.nonceStr,
-        signature: signPackage.signature,
-        jsApiList: [
-          'chooseImage',
-          'previewImage',
-          //'setBounceBackground'
-        ]
-      });
-    }
-  }
-  xhrwesign.open('GET', site.api + '/wechat/jssdk.php?url=' + location.href, true);
-  xhrwesign.send();
-  wx.ready(function () {
-  });
-}
-
 window.addEventListener('beforeunload', function (event) {
   document.getElementById('menu').checked = false;
 });
 
 document.addEventListener('DOMContentLoaded', function (event) {
-
-  if (browser.mobile) {
-    var jdlink = document.querySelector('.jd-ads-link')
-    if (jdlink) {
-      jdlink.href = jdlink.dataset.mobileUrl
-    }
-  }
-
   var disq = new iDisqus('comment', {
     forum: site.forum,
     site: site.home,
@@ -188,16 +148,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
   styles[styles.length-1].insertRule('.page-header .page-title:after{left:'+widthProgress+'}',0);
   styles[styles.length-1].insertRule('.page-header .page-title:after{content:"' + parseInt(yearProgress) + '%"}',0);
 
-  function wxchoose() {
-    wx.chooseImage({
-      count: 1, // 默认9
-      sizeType: ['original', 'compressed'],
-      sourceType: ['album', 'camera'],
-      success: function (res) {
-        var localIds = res.localIds;
-      }
-    });
-  }
 
   // 目录
   var toc = document.querySelector('.post-toc');
@@ -274,8 +224,10 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   if (page.layout == 'post') {
     var imageArr = document.querySelectorAll('.post-content img[data-src]:not([class="emoji"])')
+    // console.log(imageArr);
     var image = {
       src: [],
+      url: [],
       thumb: [],
       title: [],
       coord: []
@@ -283,6 +235,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     for (var i = 0; i < imageArr.length; i++) {
       image.thumb[i] = imageArr[i].src;
       image.src[i] = imageArr[i].dataset.src;
+      image.url[i] = imageArr[i].dataset.url;
       //new RegExp(site.img,'i').test(imageArr[i].src) ? imageArr[i].src.split(/_|\?/)[0] : imageArr[i].src;
     }
     image.jpg = image.src.filter(function (item) {
@@ -299,14 +252,23 @@ document.addEventListener('DOMContentLoaded', function (event) {
       }
 
       imgdom.addEventListener('click', function () {
-        if (browser.wechat && browser.mobile) {
-          wx.previewImage({
-            current: image.src[i],
-            urls: image.src
-          });
-        } else {
-          window.open(image.src[i]);
+        // 照片预览
+        var preview = document.getElementById('preview');
+        var previewImage = document.getElementById('previewImage');
+
+        var previewImageTitle = '<figcaption class="previewImageTitle">&#9650; ' + image.title[i] + '</figcaption>';
+        previewImage.setAttribute('src', image.url[i]);
+        preview.style.display = 'flex';
+
+        var previousPreviewImageTitle = document.querySelector('.previewImageTitle');
+        if (previousPreviewImageTitle) {
+          previousPreviewImageTitle.parentNode.removeChild(previousPreviewImageTitle);
         }
+        previewImage.insertAdjacentHTML('afterend', previewImageTitle);
+
+        preview.addEventListener('click', function() {
+          this.style.display = 'none';
+        });
       })
     })
 
@@ -385,26 +347,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
       getExif(0);
     }
 
-    // 流程图
-    var flowArr = document.getElementsByClassName('language-flow');
-    [].forEach.call(flowArr, function (item, i) {
-      var flowId = 'flow-' + (i + 1);
-
-      var div = document.createElement('div');
-      div.classList.add('flow');
-      div.id = flowId;
-
-      var pre = item.parentNode;
-      pre.insertAdjacentElement('beforebegin', div);
-      pre.style.display = 'none';
-
-      var diagram = flowchart.parse(item.innerText);
-      diagram.drawSVG(flowId, {
-        'yes-text': '是',
-        'no-text': '否',
-      });
-    })
-
     window.addEventListener('load', function () {
       var linkArr = document.querySelectorAll('.flow a');
       [].forEach.call(linkArr, function (link) {
@@ -459,30 +401,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
         }
       }
       document.querySelector('#random-posts').insertAdjacentHTML('beforeend', html);
-    }
-
-    // 微信二维码
-    var qrcode = new QRCode('qrcode', {
-      text: document.getElementById('qrcode').dataset.qrcodeUrl,
-      width: 160,
-      height: 160,
-      colorDark: '#000000',
-      colorLight: '#ffffff',
-      correctLevel: QRCode.CorrectLevel.L,
-      useSVG: false
-    });
-
-    var wechatQrcode = document.getElementById('wechat-qrcode');
-    if (wechatQrcode) {
-      var qrcode = new QRCode('wechat-qrcode', {
-        text: document.getElementById('wechat-qrcode').dataset.qrcodeUrl,
-        width: 240,
-        height: 240,
-        colorDark: '#000000',
-        colorLight: '#ffffff',
-        correctLevel: QRCode.CorrectLevel.L,
-        useSVG: false
-      });
     }
   }
 
@@ -729,44 +647,3 @@ document.addEventListener('DOMContentLoaded', function (event) {
   }
 
 })
-
-// 统计
-if (site.home === location.origin && window.parent == window) {
-  setTimeout(function () {
-
-    if (site.tongji) {
-      var s = document.getElementsByTagName("script")[0];
-      var hm = document.createElement('script');
-      hm.src = '//hm.baidu.com/hm.js?' + site.tongji;
-      s.parentNode.insertBefore(hm, s);
-      var bp = document.createElement('script');
-      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-      s.parentNode.insertBefore(bp, s);
-    }
-
-    if (site.analytics) {
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', site.analytics, 'auto');
-      ga('send', 'pageview');
-    }
-
-    if (site.clarity) {
-      (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", site.clarity);
-    }
-  }, 1000);
-}
