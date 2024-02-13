@@ -251,10 +251,13 @@ document.addEventListener('DOMContentLoaded', function (event) {
         imgdom.insertAdjacentHTML('afterend', '<figcaption class="post-figcaption">&#9650; ' + image.title[i] + '</figcaption>');
       }
 
+      // 照片预览
       imgdom.addEventListener('click', function () {
-        // 照片预览
         var preview = document.getElementById('preview');
         var previewImage = document.getElementById('previewImage');
+
+        // 处理掉腾讯云的图片样式分隔符
+        image.url[i] = image.url[i].replace(/\.(jpg|jpeg|png|gif)[^/]*$/, '.$1');
 
         var previewImageTitle = '<figcaption class="previewImageTitle">&#9650; ' + image.title[i] + '</figcaption>';
         previewImage.setAttribute('src', image.url[i]);
@@ -645,5 +648,4 @@ document.addEventListener('DOMContentLoaded', function (event) {
       }
     }
   }
-
 })

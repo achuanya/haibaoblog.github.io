@@ -68,5 +68,14 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
 
 因为网站在Github pages，这加载速度也快到顶了。目前还缺少一个已备案的域名，我想把腾讯云的COS用CDN来加速一下，这样的话静态资源应该会更快点，博客也没啥访问量，按流量计费，也花不了几个钱。
 
+
+## 2024/2/14 更新
+后来注意到URL包含了腾讯图片处理样式后缀，这里用正则做一下处理
+
+```javascript
+image.url[i] = image.url[i].replace(/\.(jpg|jpeg|png|gif)[^/]*$/, '.$1');
+```
+
+
 [p1]: https://cos.lhasa.icu/assets/article/MountTaranaki-NewZealand.jpg
 [p2]: https://cos.lhasa.icu/assets/article/cn-font-splitfenbao.png
