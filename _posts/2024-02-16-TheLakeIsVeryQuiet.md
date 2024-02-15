@@ -10,6 +10,7 @@ tags: [test, ]
     <P>湖畔独坐烟雾缭绕，古典旋律婉转悠扬</P>
     <P>一毛钱贫瘠无关乐，心中富足任徜徉</P>
 </div>
+
 ![湖畔幽悠][p1]
 
 [p1]: https://cos.lhasa.icu/assets/article/TheLakeIsVeryQuiet.jpg
