@@ -6,7 +6,8 @@ title: 链接
 
 ## 友情链接
 
-* [fooleap](https://blog.fooleap.org/){:title="fooleap"}
+* [Fooleap](https://blog.fooleap.org/){:title="一个爱折腾的潮汕大哥"}
+* [HEO](https://blog.zhheo.com/){:title="分享设计与科技生活"}
 
 ## 推荐站点
 
