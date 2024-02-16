@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 第一次校招面试总结
-description: 第一次校招面试总结
 category: tech
 thumb: IMG_PATH/zongjie.jpg
 tags: [校招, 面试]
