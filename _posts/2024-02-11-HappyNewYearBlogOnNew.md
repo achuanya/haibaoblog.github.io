@@ -9,13 +9,12 @@ tags: [webpack, js, 分包, update]
 
 ## 图片预览
 
-<title>&lt;</title>
-```javascript
-imgdom.addEventListener('click', function () {
-    var preview = document.getElementById('preview');
-    var previewImage = document.getElementById('previewImage');
-
-    var previewImageTitle = '<figcaption class="previewImageTitle">&#9650; ' + image.title[i] + '</figcaption>';
+`
+    
+    var preview = document.getElementById("preview");
+    var previewImage = document.getElementById("previewImage");
+    
+    var previewImageTitle = <figcaption class="previewImageTitle"> + image.title[i] + </figcaption>;
     previewImage.setAttribute('src', image.url[i]);
     preview.style.display = 'flex';
 
@@ -25,12 +24,13 @@ imgdom.addEventListener('click', function () {
     }
     previewImage.insertAdjacentHTML('afterend', previewImageTitle);
 
-    preview.addEventListener('click', function() {
+    preview.addEventListener("click", function() {
         this.style.display = 'none';
     });
-})
-```
-<title>&gt;</title> markdown太丧心病狂了，js的代码块在转换的过程中给我生效了，大多方法都不能阻止这段代码不生效，让我足足花了5分钟去注释这段代码.....
+
+`
+
+markdown太丧心病狂了，js的代码块在转换的过程中给我生效了，大多方法都不能阻止这段代码不生效，把代码删删减减让我足足花了5分钟去注释这段代码.....
 
 ![点开试试][p1]
 
