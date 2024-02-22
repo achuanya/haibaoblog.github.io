@@ -26,12 +26,16 @@ layout: compress
                     <h2 class="page-subtitle">
                     {% if page.date %}
                     <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y 年 %m 月 %d 日 %R" }}</time>
-                        <span class="post-count">本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字，阅读全文约需 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟</span>
-                    {% elsif paginator 
-                    or page.url == '/tech.html' 
-                    or page.url == '/life.html' 
-                    or page.url == '/album.html' 
-                    or page.url == '/running.html' 
+                        <span class="post-count">本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字，阅读全文约需 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
+                            <p>本博客文章采用：
+                                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans">署名-非商业性使用-禁止演绎 4.0 国际</a>，转载请务必注明出处，谢谢
+                            </p>
+                        </span>
+                    {% elsif paginator
+                    or page.url == '/tech.html'
+                    or page.url == '/life.html'
+                    or page.url == '/album.html'
+                    or page.url == '/running.html'
                     %}
                         <div class="post-cats cf">
                             <a class="post-cat-tag{% if paginator %} active{% endif %}" href="/">全部</a>

@@ -9,11 +9,11 @@ tags: [关于, 博客, 游钓四方, blog]
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=22603037&auto=1&height=32"></iframe>
 
-请使用 Mozilla Firefox、Google Chrome 等现代浏览器浏览本博客，以免因为兼容性影响阅读体验。
+请使用 Firefox、Chrome 等现代浏览器浏览本博客，以免因为兼容性影响阅读体验。
 
 自 2018 年 8 月 31 日起，本站已运行 <span id="days"></span> 天，截至到今天，共写了博文 {{ site.posts.size }} 篇，计 {% assign count = 0 %}{% for post in site.posts %}{% assign single_count = post.content | strip_html | strip_newlines | remove: ' ' | size %}{% assign count = count | plus: single_count %}{% endfor %}{% if count > 10000 %}{{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}{% else %}{{ count }}{% endif %} 字。
 
-本博客所有文章采用的授权方式为 [自由转载-非商用-非衍生-保持署名][1]，转载请务必注明出处，谢谢。
+本博客所有文章采用：[署名-非商业性使用-禁止演绎 4.0 国际][1]，转载请务必注明出处，谢谢。
 
 内容系本人学习、研究和总结，如有雷同，实属荣幸！
 
@@ -43,7 +43,7 @@ tags: [关于, 博客, 游钓四方, blog]
 * 2024-02-06 由 Ningx 反向代理引入 Disqus 评论系统
 * 2024-02-11 CSS、JS 由 webPack 打包，字体做分包处理
 
-[1]: https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh-hans
+[1]: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans
 [2]: https://github.com/achuanya
 
 <script>
