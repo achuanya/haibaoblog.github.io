@@ -202,7 +202,7 @@ body {
     }
     .page-search-input {
       padding: 0 0px;
-      width: 160px;
+      width: 132px;
       border: 0px;
       border-radius: 0;
       font-size: 14px;
@@ -246,18 +246,6 @@ body {
       float: right;
     }
   }
-}
-
-/* 归档搜索 */
-@media screen and (max-width: 430px) {
-	.search-article {
-    position: absolute;
-		right: 18px;
-    
-	}
-	.my-photo {
-		height: 13rem !important;
-	}
 }
 
 /* about.html 个人照片 */

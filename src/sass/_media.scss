@@ -19,6 +19,15 @@
   }
 }
 @media screen and(max-width: 450px) {
+  /* 归档搜索 */
+  .search-article {
+		right: 53px !important;
+    
+	}
+	.my-photo {
+		height: 13rem !important;
+	}
+
   .post-life .post-item{
     width: 50%;
   }

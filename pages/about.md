@@ -5,7 +5,7 @@ title: 关于
 tags: [关于, 博客, 游钓四方, blog]
 ---
 
-* Atom 订阅：[https://lhasa.icu/atom.xml](/atom.xml) 
+* Atom 订阅：[https://lhasa.icu/atom.xml](/atom.xml)
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=22603037&auto=1&height=32"></iframe>
 
@@ -27,8 +27,6 @@ tags: [关于, 博客, 游钓四方, blog]
 
 - Email: <haibao1027@gmail.com>
 - Github：[achuanya][2]
-
-[<img src="https://ghchart.rshah.org/7db9de/achuanya" alt="achuanya's Github chart" />][2]
 
 ## 博客进程
 
