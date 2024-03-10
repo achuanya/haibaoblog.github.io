@@ -283,4 +283,4 @@ Shift+F11
 如有写的不足之处，还请您多多指教！  
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
-![抱拳]({{ site.IMG_PATH }}/sublime.png)
+![抱拳]({{ site.IMG_PATH }}/sublime.png){:.none}

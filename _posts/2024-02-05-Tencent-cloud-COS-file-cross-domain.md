@@ -22,17 +22,17 @@ tags: [COS, 跨域, 取子集]
 
 腾讯云COS跨域访问CORS配置如下：
 
-![腾讯云COS跨域访问CORS设置][1]
+![腾讯云COS跨域访问CORS设置][1]{:.small}
 
 配置好后又遇到麻烦了，字体太大了，一个字体文件17.9M！网站都脱垮了
 
-![网站被拖垮了][2]
+![网站被拖垮了][2]{:.small}
 
 这里做一下处理，取子集压缩文字，需要用到 [FontSmaller][3] 和 [现代汉语常用3500汉字][4]
 
 取子集压缩之后字体文件大小为1.94M
 
-![取子集压缩后的效果][5]
+![取子集压缩后的效果][5]{:.small}
 
 
 [1]: https://cos.lhasa.icu/assets/article/Tencent%20cloud%20cos%20cross-domain%20configuration.jpg

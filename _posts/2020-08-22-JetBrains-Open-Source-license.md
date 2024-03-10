@@ -20,4 +20,4 @@ JetBrains公司旗下产品都太棒了，我是深陷其中不可自拔，离�
 
 填写表单就行了，提交申请后我两天后就收到了JetBrains官方的电子邮件。
 
-![成功]({{ site.article }}2020-08-22-JetBrains-Open-Source-license/success.png?achuan.io "成功")
+![成功](https://cos.lhasa.icu/assets/article/success.png "成功")

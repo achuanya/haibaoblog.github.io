@@ -19,14 +19,17 @@ tags: [关于, 博客, 游钓四方, blog]
 
 ## 博主
 
-<img class="my-photo" src="https://cos.lhasa.icu/assets/images/my-photo.jpg_640">
+![游钓四方的骑行照](https://cos.lhasa.icu/assets/images/my-photo.jpg_640 "游钓四方的骑行照")
 
 千禧年小屁孩，代码、计算机纯属个人爱好，怀旧着，记录着 正在的发生美好往昔
 
-长途骑行小学生、野钓路亚、振出并继、萨克斯、提琴、摇滚、蓝调布鲁斯爱好者
+长途骑行小学生、野钓路亚、振出并继、提琴、萨克斯、古典乐、茶叶爱好者
 
 - Email: <haibao1027@gmail.com>
 - Github：[achuanya][2]
+- 微信公众号：游钓四方的博客
+
+![游钓四方的微信公众号](https://cos.lhasa.icu/assets/images/WechatPublicAccount.jpg "生活中从不缺少美，而是缺少发现美的眼睛")
 
 ## 博客进程
 

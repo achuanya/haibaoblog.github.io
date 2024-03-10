@@ -545,7 +545,6 @@ body {
       opacity: .7;
     }
     .post-image {
-      border-bottom: 30px solid #ffffff;
       cursor: pointer;
       display: block;
       max-width: 100%;
@@ -570,6 +569,9 @@ body {
     }
     .post-image.small + .post-figcaption {
       position: initial;
+    }
+    .post-image.none + .post-figcaption {
+      display: none;
     }
   }
 }
@@ -874,4 +876,9 @@ pre {
     width: 100%;
     border-radius: 3px;
   }
+}
+.wechat {
+    width: 400px;
+    margin: auto;
+    padding-bottom: 15px;
 }
