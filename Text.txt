@@ -13,6 +13,7 @@ https://lhasa.icu/life.html
 https://lhasa.icu/links.html
 https://lhasa.icu/search.html
 https://lhasa.icu/atom.xml
+https://lhasa.icu/sitemap.xml
 https://lhasa.icu/about.html
 https://lhasa.icu/archive.html
 https://lhasa.icu/music.html
