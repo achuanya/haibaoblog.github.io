@@ -28,6 +28,7 @@ title: 链接
 * [CN-FONT-SPLIT](https://github.com/KonghaYao/cn-font-split) 字体分包
 * [Iconfont](https://www.iconfont.cn) 阿里矢量图标库
 * [Fontello](https://fontello.com) Web-font 图标库
+* [XML Sitemaps](https://www.xml-sitemaps.com) 网站地图生成器
 * [ClipConverter](https://www.clipconverter.cc) 专业音视频转换器
 * [Online converter](https://www.online-convert.com) 专业文件转换器
 * [Cravatar](https://cravatar.cn) 免费的互联网公共头像服务
@@ -39,5 +40,3 @@ title: 链接
 * [异次元软件世界](https://www.iplaysoft.com) 综合应用资源站，有正版软件销售业务
 * [软仓](https://ruancang.net) 资源站的清流，专业设计、办公软件类，涉及广泛版本多
 * [MSDN Itell you](https://msdn.itellyou.cn) 十五年老站点，主要下载开发工具和操作系统
-
-
