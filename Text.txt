@@ -4,6 +4,7 @@ https://lhasa.icu/page3/
 https://lhasa.icu/page4/
 https://lhasa.icu/page5/
 https://lhasa.icu/page6/
+https://lhasa.icu/robots.txt
 https://lhasa.icu/life.html?page=2
 https://lhasa.icu/tech.html
 https://lhasa.icu/tech.html?page=2

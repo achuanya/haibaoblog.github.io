@@ -6,8 +6,9 @@ title: 链接
 
 ## 友情链接
 
-* [Fooleap](https://blog.fooleap.org/){:title="一个爱折腾的潮汕大哥"}
-* [HEO](https://blog.zhheo.com/){:title="分享设计与科技生活"}
+* [Fooleap](https://blog.fooleap.org) 爱折腾的潮汕大哥
+* [HEO](https://blog.zhheo.com) 分享设计与科技生活
+* [Armstrong](https://armstrong.viyf.org) 一位视障学生的日志
 
 ## 推荐站点
 
