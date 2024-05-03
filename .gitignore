@@ -1,3 +1,5 @@
 /node_modules/
 /.bundle/
 /_site/
+desktop.ini
+.vscode/
